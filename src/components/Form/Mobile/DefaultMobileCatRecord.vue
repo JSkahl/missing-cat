@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1>Default Form Cat (Desktop)</h1>
+  <h1>Default Cat Record (Mobile)</h1>
 </template>
 
 <style scoped>
