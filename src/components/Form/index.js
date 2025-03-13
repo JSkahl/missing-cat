@@ -10,7 +10,9 @@ export {
   MobilePreviewCat,
   MobileInfoCat,
   MobileContactOwner,
+  DefaultMobileFormCat,
   DesktopPreviewCat,
   DesktopInfoCat,
   DesktopContactOwner,
+  DefaultDesktopFormCat,
 }
