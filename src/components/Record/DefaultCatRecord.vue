@@ -1,11 +1,11 @@
 <script setup>
-import MobilePreviewCat from './index.js'
+import { DesktopCatRecord } from "./index.js";
+import { MobileCatRecord } from "./index.js";
 </script>
 
 <template>
-aaa  <MobilePreviewCat/>
+  <DesktopCatRecord />
+  <MobileCatRecord />
 </template>
 
-<style scoped>
-  
-</style>
+<style scoped></style>

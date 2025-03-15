@@ -1,11 +1,15 @@
 <script setup>
-  
+import {
+  DesktopPreviewCat,
+  DesktopInfoCat,
+  DesktopContactOwner,
+} from "../index.js";
 </script>
 
 <template>
-  <h1>Default Cat Record (Desktop)</h1>
+  <DesktopPreviewCat />
+  <DesktopInfoCat />
+  <DesktopContactOwner />
 </template>
 
-<style scoped>
-  
-</style>
+<style scoped></style>
