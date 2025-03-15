@@ -1,9 +1,9 @@
 <script setup>
-import DefaultCatRecord from './components/Record/DefaultCatRecord.vue'
+import { RouterView } from "vue-router";
 </script>
 
 <template>
-  <DefaultCatRecord/>
+  <RouterView />
 </template>
 
 <style scoped></style>
