@@ -1,9 +1,9 @@
 <script setup>
-  
+import MobilePreviewCat from './index.js'
 </script>
 
 <template>
-  <h1>Default Cat Record (Mobile)</h1>
+aaa  <MobilePreviewCat/>
 </template>
 
 <style scoped>

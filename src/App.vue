@@ -1,9 +1,9 @@
 <script setup>
+import DefaultCatRecord from './components/Record/DefaultCatRecord.vue'
 </script>
 
 <template>
-  <h1>Missing Cat</h1>
+  <DefaultCatRecord/>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
