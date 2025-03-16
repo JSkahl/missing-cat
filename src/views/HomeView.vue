@@ -15,22 +15,22 @@ import { capitalizeFirst } from "utils/stringHelpers.js";
       comigo:
     </p>
     <div class="cats">
-      <div class="astrid">
-        <div class="picture">
-          <RouterLink to="/astrid">
-            <img src="assets/img/astrid.png" alt="Gata preta, Astrid" />
-          </RouterLink>
+      <RouterLink to="/astrid">
+        <div class="astrid">
+          <div class="picture">
+            <img :src="cats.astrid.picture" alt="Gata preta, Astrid" />
+          </div>
+          <h4>{{ capitalizeFirst(cats.astrid.name) }}</h4>
         </div>
-        <h4>{{ capitalizeFirst(cats.astrid.name) }}</h4>
-      </div>
-      <div class="mia">
-        <div class="picture">
-          <RouterLink to="/mia">
-            <img src="assets/img/mia.png" alt="Gata preta e branca, Mia" />
-          </RouterLink>
+      </RouterLink>
+      <RouterLink to="/mia">
+        <div class="mia">
+          <div class="picture">
+            <img :src="cats.mia.picture" alt="Gata preta e branca, Mia" />
+          </div>
+          <h4>{{ capitalizeFirst(cats.mia.name) }}</h4>
         </div>
-        <h4>{{ capitalizeFirst(cats.mia.name) }}</h4>
-      </div>
+      </RouterLink>
     </div>
   </div>
 </template>
@@ -80,6 +80,10 @@ import { capitalizeFirst } from "utils/stringHelpers.js";
   & h4 {
     color: var(--white);
   }
+}
+
+.astrid, .mia {
+  text-decoration: none;
 }
 
 @keyframes card {
