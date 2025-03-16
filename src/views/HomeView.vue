@@ -1,8 +1,7 @@
 <script setup>
 import Cat from "icons/Cat.vue";
 import { cats } from "data/cats.js";
-import { capitalizeFirst } from "utils/stringHelpers.js"
-
+import { capitalizeFirst } from "utils/stringHelpers.js";
 </script>
 
 <template>
@@ -14,11 +13,15 @@ import { capitalizeFirst } from "utils/stringHelpers.js"
     <p>Por favor, confira se é uma das duas e entre em contato comigo</p>
     <div class="cats">
       <div class="astrid">
-        <div class="picture"></div>
+        <div class="picture">
+          <RouterLink to="/astrid">page</RouterLink>
+        </div>
         <h4>{{ capitalizeFirst(cats.astrid.name) }}</h4>
       </div>
       <div class="mia">
-        <div class="picture"></div>
+        <div class="picture">
+          <RouterLink to="/mia">page</RouterLink>
+        </div>
         <h4>{{ capitalizeFirst(cats.mia.name) }}</h4>
       </div>
     </div>
@@ -45,5 +48,13 @@ import { capitalizeFirst } from "utils/stringHelpers.js"
 :deep(.material-design-icon__svg) {
   width: 10em;
   height: 10em;
+}
+
+.cats {
+  display: flex;
+  width: 90%;
+  margin-top: 20%;
+  background-color: blue;
+  justify-content: space-evenly;
 }
 </style>
