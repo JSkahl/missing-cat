@@ -73,7 +73,7 @@ import { capitalizeFirst } from "utils/stringHelpers.js";
   height: 100%;
   border-radius: 10px 10px 0 0;
   animation-name: card;
-  animation-duration: 1s;
+  animation-duration: 0.3s;
   animation-fill-mode: both;
   color: var(--white);
 
@@ -89,7 +89,7 @@ import { capitalizeFirst } from "utils/stringHelpers.js";
 }
 
 .picture {
-  padding: 3%;
+  padding: 5%;
 }
 
 img {
