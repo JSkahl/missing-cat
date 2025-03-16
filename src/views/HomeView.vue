@@ -1,5 +1,8 @@
 <script setup>
 import Cat from "icons/Cat.vue";
+import { cats } from "data/cats.js";
+import { capitalizeFirst } from "utils/stringHelpers.js"
+
 </script>
 
 <template>
@@ -12,11 +15,11 @@ import Cat from "icons/Cat.vue";
     <div class="cats">
       <div class="astrid">
         <div class="picture"></div>
-        <h4>Astrid</h4>
+        <h4>{{ capitalizeFirst(cats.astrid.name) }}</h4>
       </div>
       <div class="mia">
         <div class="picture"></div>
-        <h4>Mia</h4>
+        <h4>{{ capitalizeFirst(cats.mia.name) }}</h4>
       </div>
     </div>
   </div>
@@ -24,7 +27,8 @@ import Cat from "icons/Cat.vue";
 
 <style scoped>
 .container {
-  width: 55%;
+  margin: auto;
+  width: 40%;
   height: 95vh;
   display: flex;
   flex-direction: column;
@@ -33,6 +37,7 @@ import Cat from "icons/Cat.vue";
 }
 
 .cat-icon {
+  text-align: center;
   color: var(--black);
   background-color: green;
 }
