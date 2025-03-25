@@ -1,9 +1,9 @@
 <script setup>
-//import DefaultCatRecord from "../components/index.js";
+import DefaultCatRecord from "@/components/Record/DefaultCatRecord.vue";
 </script>
 
 <template>
-  <h1>Astrid</h1>
+  <DefaultCatRecord />
 </template>
 
 <style scoped></style>

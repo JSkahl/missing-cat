@@ -8,6 +8,8 @@ import DesktopInfoCat from "./Desktop/DesktopInfoCat.vue";
 import DesktopContactOwner from "./Desktop/DesktopContactOwner.vue";
 import DesktopCatRecord from "./Desktop/DesktopCatRecord.vue";
 
+import DefaultCatRecord from "./DefaultCatRecord.vue";
+
 export {
   MobilePreviewCat,
   MobileInfoCat,
@@ -17,4 +19,5 @@ export {
   DesktopInfoCat,
   DesktopContactOwner,
   DesktopCatRecord,
+  DefaultCatRecord,
 };

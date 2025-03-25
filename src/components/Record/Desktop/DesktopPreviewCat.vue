@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+  import { cats } from 'data/cats';
+</script>
 
 <template>
-  <h1>Preview Cat (Desktop)</h1>
+  {{ cats.astrid.name }}
 </template>
 
 <style scoped></style>
