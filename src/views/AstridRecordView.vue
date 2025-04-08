@@ -1,9 +1,8 @@
 <script setup>
-import DefaultCatRecord from "@/components/Record/DefaultCatRecord.vue";
 </script>
 
 <template>
-  <DefaultCatRecord />
+  aa
 </template>
 
 <style scoped></style>

@@ -1,9 +1,7 @@
-import MobileHome from "./Mobile/MobileHome.vue";  
 import DesktopHome from "./Desktop/DesktopHome.vue";
-import DefaultHome from "./DefaultHome.vue";
+import MobileHome from "./Mobile/MobileHome.vue";
 
 export {
-  MobileHome,
   DesktopHome,
-  DefaultHome,
+  MobileHome
 }

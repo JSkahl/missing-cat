@@ -1,6 +1,6 @@
 <script setup>
-import DesktopHome from "./index.js";
-import MobileHome from "./index.js";
+import DesktopHome from "./Desktop/DesktopHome.vue";
+import MobileHome from "./Mobile/MobileHome.vue";
 
 import { useScreen } from "@/composables/index.js";
 const { isMobile } = useScreen();
