@@ -21,20 +21,24 @@ import { capitalizeFirst } from '@/utils/stringHelpers';
   .container {
     width: 50%;
     height: 40vh;
-    background-color: red;
     margin: auto;
+    margin-top: 1%;
     margin-bottom: 3%;
     text-align: center;
   }
 
   p {
     text-align: justify;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-justify: auto;
   }
 
   img {
     width: 25%;
     clip-path: circle();
+  }
+
+  h1 {
+    font-size: 2.8em;
   }
 </style>
