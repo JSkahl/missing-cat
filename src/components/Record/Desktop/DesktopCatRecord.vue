@@ -4,11 +4,18 @@ import {
   DesktopInfoCat,
   DesktopContactOwner,
 } from "../index.js";
+
+defineProps({
+  cat: {
+    type: Object,
+    required: true
+  }
+});
 </script>
 
 <template>
-  <DesktopPreviewCat />
-  <DesktopInfoCat />
+  <DesktopPreviewCat :cat="cat"/>
+  <DesktopInfoCat :cat="cat"/>
   <DesktopContactOwner />
 </template>
 
