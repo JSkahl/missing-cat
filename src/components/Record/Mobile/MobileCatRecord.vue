@@ -4,11 +4,18 @@ import {
   MobileInfoCat,
   MobileContactOwner,
 } from "../index.js";
+
+defineProps({
+  cat: {
+    type: Object,
+    required: true
+  }
+});
 </script>
 
 <template>
-  <MobilePreviewCat />
-  <MobileInfoCat />
+  <MobilePreviewCat :cat="cat"/>
+  <MobileInfoCat :cat="cat"/>
   <MobileContactOwner />
 </template>
 

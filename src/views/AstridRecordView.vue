@@ -4,7 +4,6 @@
 </script>
 
 <template>
-  <h1>Astrid</h1>
   <DefaultCatRecord :cat="cats.astrid"/>
 </template>
 
